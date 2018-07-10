@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750CF73620F554AB0093AA51 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CF73520F554AB0093AA51 /* UserService.swift */; };
 		75B8C6A320F3E4D700F7AD06 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B8C6A220F3E4D700F7AD06 /* Login.storyboard */; };
 		75B8C6A720F3E64A00F7AD06 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B8C6A620F3E64A00F7AD06 /* LoginViewController.swift */; };
 		75B8C6A920F51B6400F7AD06 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B8C6A820F51B6400F7AD06 /* User.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		6809A723517BFAAE9EA63A27 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		750CF73520F554AB0093AA51 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		75B8C6A220F3E4D700F7AD06 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		75B8C6A620F3E64A00F7AD06 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		75B8C6A820F51B6400F7AD06 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		75B8C69E20F3E16400F7AD06 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				750CF73520F554AB0093AA51 /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				750CF73620F554AB0093AA51 /* UserService.swift in Sources */,
 				75B8C6A720F3E64A00F7AD06 /* LoginViewController.swift in Sources */,
 				75D5F52520F3CE8C00050732 /* ViewController.swift in Sources */,
 				75B8C6AB20F52A7000F7AD06 /* CreateUsernameViewController.swift in Sources */,
