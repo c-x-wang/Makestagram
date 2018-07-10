@@ -10,6 +10,16 @@ import UIKit
 
 class CreateUsernameViewController: UIViewController {
     
-    //
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var nextButton: UIButton!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        nextButton.layer.cornerRadius = 6
+    }
+    
+    @IBAction func nextButtonTapped(_ sender: UIButton) {
+        // create new user in database
+    }
 }
