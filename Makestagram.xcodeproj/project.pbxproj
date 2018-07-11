@@ -12,6 +12,8 @@
 		750CF73A20F66C180093AA51 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CF73920F66C180093AA51 /* Storyboard+Utility.swift */; };
 		750CF73C20F679F60093AA51 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CF73B20F679F60093AA51 /* HomeViewController.swift */; };
 		750CF73E20F67A070093AA51 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CF73D20F67A070093AA51 /* FindFriendsViewController.swift */; };
+		750CF74020F6A58D0093AA51 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CF73F20F6A58D0093AA51 /* MainTabBarController.swift */; };
+		750CF74420F6B48B0093AA51 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CF74320F6B48B0093AA51 /* MGPhotoHelper.swift */; };
 		75B8C6A320F3E4D700F7AD06 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B8C6A220F3E4D700F7AD06 /* Login.storyboard */; };
 		75B8C6A720F3E64A00F7AD06 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B8C6A620F3E64A00F7AD06 /* LoginViewController.swift */; };
 		75B8C6A920F51B6400F7AD06 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B8C6A820F51B6400F7AD06 /* User.swift */; };
@@ -32,6 +34,8 @@
 		750CF73920F66C180093AA51 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		750CF73B20F679F60093AA51 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		750CF73D20F67A070093AA51 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
+		750CF73F20F6A58D0093AA51 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		750CF74320F6B48B0093AA51 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
 		75B8C6A220F3E4D700F7AD06 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		75B8C6A620F3E64A00F7AD06 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		75B8C6A820F51B6400F7AD06 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 				75B8C6AA20F52A7000F7AD06 /* CreateUsernameViewController.swift */,
 				750CF73B20F679F60093AA51 /* HomeViewController.swift */,
 				750CF73D20F67A070093AA51 /* FindFriendsViewController.swift */,
+				750CF73F20F6A58D0093AA51 /* MainTabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 		75B8C69C20F3E14800F7AD06 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				750CF74320F6B48B0093AA51 /* MGPhotoHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -323,7 +329,9 @@
 			files = (
 				750CF73620F554AB0093AA51 /* UserService.swift in Sources */,
 				75B8C6A720F3E64A00F7AD06 /* LoginViewController.swift in Sources */,
+				750CF74020F6A58D0093AA51 /* MainTabBarController.swift in Sources */,
 				75B8C6AB20F52A7000F7AD06 /* CreateUsernameViewController.swift in Sources */,
+				750CF74420F6B48B0093AA51 /* MGPhotoHelper.swift in Sources */,
 				75D5F52B20F3CE8C00050732 /* Makestagram.xcdatamodeld in Sources */,
 				75B8C6A920F51B6400F7AD06 /* User.swift in Sources */,
 				750CF73E20F67A070093AA51 /* FindFriendsViewController.swift in Sources */,
