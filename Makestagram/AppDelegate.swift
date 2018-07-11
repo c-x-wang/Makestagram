@@ -24,10 +24,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = initialViewController
         window?.makeKeyAndVisible()
         
-//        let initialViewController = UIStoryboard.initialViewController(for: .main)
-//        self.view.window?.rootViewController = initialViewController
-//        self.view.window?.makeKeyAndVisible()
-        
         return true
     }
 
