@@ -10,6 +10,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="g4d-11-3Is">
+            <objects>
+                <viewController id="JU2-j7-eai" customClass="HomeViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jdd-Hx-syy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="oHl-RJ-Byd"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="h86-XU-HKr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z34-tn-SIg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1207" y="1730"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="J5h-vh-Ujc">
             <objects>
@@ -56,7 +72,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="szO-Ft-TbR" kind="relationship" relationship="viewControllers" id="sCZ-xo-i9Q"/>
+                        <segue destination="6UL-d6-frI" kind="relationship" relationship="viewControllers" id="sCZ-xo-i9Q"/>
                         <segue destination="weX-4V-1yE" kind="relationship" relationship="viewControllers" id="Yyg-o7-Kdz"/>
                         <segue destination="93w-WT-fiB" kind="relationship" relationship="viewControllers" id="0as-m2-jA4"/>
                     </connections>
@@ -65,19 +81,31 @@
             </objects>
             <point key="canvasLocation" x="-338" y="-71"/>
         </scene>
-        <!--Home-->
-        <scene sceneID="FkZ-Fb-BnL">
+        <!--Navigation Controller-->
+        <scene sceneID="1kL-vc-Csu">
             <objects>
-                <viewControllerPlaceholder storyboardName="Home" id="szO-Ft-TbR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Yev-od-eed"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z8p-mC-KL1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6UL-d6-frI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="tab_home_black" id="mAF-y5-mU9">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EJi-1B-QMP">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="JU2-j7-eai" kind="relationship" relationship="rootViewController" id="nKj-47-WSD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Aq-Tz-2tN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1207.2" y="939.58020989505258"/>
         </scene>
     </scenes>
     <resources>
         <image name="tab_find_friends_black" width="25" height="25"/>
+        <image name="tab_home_black" width="25" height="25"/>
         <image name="tab_plus_black" width="25" height="25"/>
     </resources>
 </document>

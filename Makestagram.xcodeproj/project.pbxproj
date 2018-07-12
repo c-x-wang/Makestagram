@@ -27,6 +27,9 @@
 		75FA16CE20F7C96D00058CDC /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA16CD20F7C96D00058CDC /* StorageService.swift */; };
 		75FA16D020F7CB2600058CDC /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA16CF20F7CB2600058CDC /* PostService.swift */; };
 		75FA16D220F7CFB800058CDC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA16D120F7CFB800058CDC /* Post.swift */; };
+		75FA16D420F7D61200058CDC /* UIImage+SIze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA16D320F7D61200058CDC /* UIImage+SIze.swift */; };
+		75FA16D820F7D79C00058CDC /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA16D720F7D79C00058CDC /* StorageReference+Post.swift */; };
+		75FA16DD20F7F64500058CDC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FA16DC20F7F64500058CDC /* Home.storyboard */; };
 		F0E66E8C89D0668556A2EADA /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6809A723517BFAAE9EA63A27 /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +57,9 @@
 		75FA16CD20F7C96D00058CDC /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		75FA16CF20F7CB2600058CDC /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		75FA16D120F7CFB800058CDC /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		75FA16D320F7D61200058CDC /* UIImage+SIze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+SIze.swift"; sourceTree = "<group>"; };
+		75FA16D720F7D79C00058CDC /* StorageReference+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
+		75FA16DC20F7F64500058CDC /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		C3910FAC96350C4F30B6A853 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		C6C1D2B7950894F9D9EA549E /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				750CF73920F66C180093AA51 /* Storyboard+Utility.swift */,
+				75FA16D320F7D61200058CDC /* UIImage+SIze.swift */,
+				75FA16D720F7D79C00058CDC /* StorageReference+Post.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -140,6 +148,7 @@
 				75D5F52620F3CE8C00050732 /* Main.storyboard */,
 				75B8C6A220F3E4D700F7AD06 /* Login.storyboard */,
 				75D5F52E20F3CE8F00050732 /* LaunchScreen.storyboard */,
+				75FA16DC20F7F64500058CDC /* Home.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -261,6 +270,7 @@
 				75D5F53020F3CE8F00050732 /* LaunchScreen.storyboard in Resources */,
 				75D5F53A20F3D98500050732 /* GoogleService-Info.plist in Resources */,
 				75D5F52D20F3CE8F00050732 /* Assets.xcassets in Resources */,
+				75FA16DD20F7F64500058CDC /* Home.storyboard in Resources */,
 				75B8C6A320F3E4D700F7AD06 /* Login.storyboard in Resources */,
 				75D5F52820F3CE8C00050732 /* Main.storyboard in Resources */,
 			);
@@ -340,7 +350,9 @@
 				75B8C6A720F3E64A00F7AD06 /* LoginViewController.swift in Sources */,
 				750CF74020F6A58D0093AA51 /* MainTabBarController.swift in Sources */,
 				75B8C6AB20F52A7000F7AD06 /* CreateUsernameViewController.swift in Sources */,
+				75FA16D420F7D61200058CDC /* UIImage+SIze.swift in Sources */,
 				750CF74420F6B48B0093AA51 /* MGPhotoHelper.swift in Sources */,
+				75FA16D820F7D79C00058CDC /* StorageReference+Post.swift in Sources */,
 				75D5F52B20F3CE8C00050732 /* Makestagram.xcdatamodeld in Sources */,
 				75B8C6A920F51B6400F7AD06 /* User.swift in Sources */,
 				75FA16CE20F7C96D00058CDC /* StorageService.swift in Sources */,
