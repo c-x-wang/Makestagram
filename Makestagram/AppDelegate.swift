@@ -20,7 +20,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         FirebaseApp.configure()
         
+<<<<<<< HEAD
         configureInitialRootViewController(for: window)
+=======
+        let storyboard = UIStoryboard(name: "Login", bundle: .main)
+        
+        if let initialViewController = storyboard.instantiateInitialViewController() {
+            window?.rootViewController = initialViewController
+            window?.makeKeyAndVisible()
+        }
+>>>>>>> parent of c17933f... Refactor using enums
         
         return true
     }

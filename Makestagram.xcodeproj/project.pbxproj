@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		750CF73620F554AB0093AA51 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CF73520F554AB0093AA51 /* UserService.swift */; };
+<<<<<<< HEAD
 		750CF73820F66B330093AA51 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CF73720F66B330093AA51 /* Constants.swift */; };
 		750CF73A20F66C180093AA51 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CF73920F66C180093AA51 /* Storyboard+Utility.swift */; };
 		750CF73C20F679F60093AA51 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CF73B20F679F60093AA51 /* HomeViewController.swift */; };
 		750CF73E20F67A070093AA51 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CF73D20F67A070093AA51 /* FindFriendsViewController.swift */; };
 		750CF74020F6A58D0093AA51 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CF73F20F6A58D0093AA51 /* MainTabBarController.swift */; };
 		750CF74420F6B48B0093AA51 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CF74320F6B48B0093AA51 /* MGPhotoHelper.swift */; };
+=======
+>>>>>>> parent of c17933f... Refactor using enums
 		75B8C6A320F3E4D700F7AD06 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B8C6A220F3E4D700F7AD06 /* Login.storyboard */; };
 		75B8C6A720F3E64A00F7AD06 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B8C6A620F3E64A00F7AD06 /* LoginViewController.swift */; };
 		75B8C6A920F51B6400F7AD06 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B8C6A820F51B6400F7AD06 /* User.swift */; };
@@ -36,12 +39,15 @@
 /* Begin PBXFileReference section */
 		6809A723517BFAAE9EA63A27 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		750CF73520F554AB0093AA51 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		750CF73720F66B330093AA51 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		750CF73920F66C180093AA51 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		750CF73B20F679F60093AA51 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		750CF73D20F67A070093AA51 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		750CF73F20F6A58D0093AA51 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		750CF74320F6B48B0093AA51 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> parent of c17933f... Refactor using enums
 		75B8C6A220F3E4D700F7AD06 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		75B8C6A620F3E64A00F7AD06 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		75B8C6A820F51B6400F7AD06 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -108,9 +114,12 @@
 		75B8C69B20F3E13F00F7AD06 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				750CF73920F66C180093AA51 /* Storyboard+Utility.swift */,
 				75FA16D320F7D61200058CDC /* UIImage+SIze.swift */,
 				75FA16D720F7D79C00058CDC /* StorageReference+Post.swift */,
+=======
+>>>>>>> parent of c17933f... Refactor using enums
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -158,7 +167,6 @@
 			children = (
 				75D5F53920F3D98400050732 /* GoogleService-Info.plist */,
 				75D5F53120F3CE8F00050732 /* Info.plist */,
-				750CF73720F66B330093AA51 /* Constants.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -355,14 +363,16 @@
 				75FA16D820F7D79C00058CDC /* StorageReference+Post.swift in Sources */,
 				75D5F52B20F3CE8C00050732 /* Makestagram.xcdatamodeld in Sources */,
 				75B8C6A920F51B6400F7AD06 /* User.swift in Sources */,
+<<<<<<< HEAD
 				75FA16CE20F7C96D00058CDC /* StorageService.swift in Sources */,
 				750CF73E20F67A070093AA51 /* FindFriendsViewController.swift in Sources */,
 				75FA16D220F7CFB800058CDC /* Post.swift in Sources */,
 				75FA16D020F7CB2600058CDC /* PostService.swift in Sources */,
 				750CF73C20F679F60093AA51 /* HomeViewController.swift in Sources */,
 				750CF73A20F66C180093AA51 /* Storyboard+Utility.swift in Sources */,
+=======
+>>>>>>> parent of c17933f... Refactor using enums
 				75D5F52320F3CE8C00050732 /* AppDelegate.swift in Sources */,
-				750CF73820F66B330093AA51 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
